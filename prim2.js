@@ -355,7 +355,7 @@ clientt.on('ready', () => {
 
   console.log('---------------')
 
-  client.user.setStatus("Online")
+  clientt.user.setStatus("Online")
 
     clientt.user.setActivity(" Broadcast Server",{type: 'WATCHING'})
 
