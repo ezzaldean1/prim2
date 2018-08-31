@@ -643,7 +643,7 @@ clientt.on("message", message => {
 
 const adminprefixx = "#";
 
-const devs = ['470500980342128650'];
+const devss = ['470500980342128650'];
 
 client.on('message', message => {
 
