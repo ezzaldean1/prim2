@@ -10,7 +10,7 @@ A7MD.on("guildMemberAdd", member => {
 
   member.createDM().then(function (channel) {
 
-  return channel.send(**
+  return channel.send('**
 
 سلام عليكم 
 
@@ -22,7 +22,7 @@ A7MD.on("guildMemberAdd", member => {
 
 الدعووة خاصة لك ................... [ ${member}  ]
 
-**) 
+**') 
 
 }).catch(console.error)
 
