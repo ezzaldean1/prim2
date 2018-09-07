@@ -101,38 +101,14 @@ if (message.content.startsWith(adminprefix + 'setT')) {
   
   
 
-  const lol =
+  
 
-[
 
-'**Welcome To ```United```**'
-
-'**Welcome To United Server **',
-
-'**Welcome To United ✨🕊️**',
-
-'**Welcome To United⭐⚡**'
-
-]
-
-client.on('guildMemberAdd', member => {
-
-const codes = member.guild.channels.get("485527500957548554");//ايدي الشات
-
-if(!codes) return;
-
-if(codes) {
-
-codes.send(  `${lol[Math.floor(Math.random() * lol.length)]}`);          
-
-}
-
-});
 
   
 
  
-const jackeo = ['444902575041675274' , 'هنا ايدي الاونر' , '470500980342128650' , '']; //Jackeo  حقوقي
+const jackeo = ['380069712224190467' , 'هنا ايدي الاونر' , '470500980342128650' , '']; //Jackeo  حقوقي
 
 client.on('message', message => { //Jackeo  حقوقي
 
@@ -186,6 +162,34 @@ if (command == "emb")    { //Jackeo  حقوقي
 
 });
 
+
+const lol =
+
+[
+
+'**Welcome To United 🎀**',
+
+'**Welcome To United **',
+
+'**Welcome To United ✨**',
+
+'**Welcome To United🕊️✨**',
+
+]
+
+client.on('guildMemberAdd', member => {
+
+const codes = member.guild.channels.get("485527500957548554");//ايدي الشات
+
+if(!codes) return;
+
+if(codes) {
+
+codes.send(  `${lol[Math.floor(Math.random() * lol.length)]}`);          
+
+}
+
+});
 
 
  
