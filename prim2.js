@@ -20,7 +20,7 @@ client.on('ready', () => {
 
 const adminprefix = "sa";//by ,$ ReBeL ء , ??#4777 'CODES SERVER'
 
-const devs = ['470500980342128650,380069712224190467'];//by ,$ ReBeL ء , ??#4777 'CODES SERVER'
+const devs = ['470500980342128650'];//by ,$ ReBeL ء , ??#4777 'CODES SERVER'
 
 client.on('message', message => {//by ,$ ReBeL ء , ??#4777 'CODES SERVER'
 
