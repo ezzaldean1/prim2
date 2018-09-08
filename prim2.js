@@ -12,7 +12,7 @@ client.on('ready', () => {
 
   client.user.setStatus("Online")
 
-    client.user.setActivity(" United Server",{type: 'PLAYING'})
+    client.user.setActivity(" United Server⭐",{type: 'PLAYING'})
 
   
 
